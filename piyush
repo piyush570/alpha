@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+         stage('deploy') {
+            steps {
+                echo'code'
+            }
+        }
+        stage('name') {
+            steps {
+                echo 'piyush lokhande'
+            }
+        }
+    }
+}
